@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class CoffeeMachine {   
-	static Scanner scanner = new Scanner(System.in);
-    static Status status;
+    	static Scanner scanner = new Scanner(System.in);
+    	static Status status;
     
 	public enum Status{
 		BUY("buy"),
@@ -33,11 +33,11 @@ public class CoffeeMachine {
 	
 	 static class MyMachine{	
 		 int totalWater = 400;
-         int totalMilk = 540;
-         int totalCoffee = 120;
-         int totalCups = 9;
-         int totalMoney = 550;
-         boolean stopped = false;
+		 int totalMilk = 540;
+		 int totalCoffee = 120;
+		 int totalCups = 9;
+		 int totalMoney = 550;
+		 boolean stopped = false;
 		
 		 public void buy_drink() {
 				System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino:, 4 - back");
